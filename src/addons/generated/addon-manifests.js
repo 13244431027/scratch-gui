@@ -83,6 +83,7 @@ import _tw_disable_compiler from "../addons/tw-disable-compiler/_manifest_entry.
 import _editor_stepping from "../addons/editor-stepping/_manifest_entry.js";
 import _tw_markdown_comment_editor from "../addons/tw-comment-markdown-editor/_manifest_entry.js";
 import _comment_vscode_sync from "../addons/comment-vscode-sync/_manifest_entry.js";
+import _ultimate_block_cleaner from "../addons/ultimate-block-cleaner/_manifest_entry.js";
 export default {
   "02agent": _02agent,
   "cat-blocks": _cat_blocks,
@@ -167,5 +168,6 @@ export default {
   "tw-disable-compiler": _tw_disable_compiler,
   "editor-stepping": _editor_stepping,
   "tw-comment-markdown-editor": _tw_markdown_comment_editor,
-  "comment-vscode-sync": _comment_vscode_sync
+  "comment-vscode-sync": _comment_vscode_sync,
+  "ultimate-block-cleaner": _ultimate_block_cleaner
 };
