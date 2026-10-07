@@ -84,5 +84,6 @@ export default {
   "editor-stepping": () => import(/* webpackChunkName: "addon-entry-editor-stepping" */ "../addons/editor-stepping/_runtime_entry.js"),
   "tw-comment-markdown-editor": () => import(/* webpackChunkName: "addon-tw-comment-markdown-editor" */ "../addons/tw-comment-markdown-editor/_runtime_entry.js"),
   "comment-vscode-sync": () => import(/* webpackChunkName: "addon-comment-vscode-sync" */ "../addons/comment-vscode-sync/_runtime_entry.js"),
-  "ultimate-block-cleaner": () => import(/* webpackChunkName: "addon-entry-ultimate-block-cleaner" */ "../addons/ultimate-block-cleaner/_runtime_entry.js")
+  "ultimate-block-cleaner": () => import(/* webpackChunkName: "addon-entry-ultimate-block-cleaner" */ "../addons/ultimate-block-cleaner/_runtime_entry.js"),
+  "studiopaint": () => import(/* webpackChunkName: "addon-entry-studiopaint" */ "../addons/studiopaint/_runtime_entry.js")
 };
